@@ -1,6 +1,6 @@
 def square_array(array)
-  
+  squared_array = []
   array.each do |squared_number|
-    puts "The number squared is #{squared_number}**2."
+    puts squared_number**2 << squared_array 
   end
 end
